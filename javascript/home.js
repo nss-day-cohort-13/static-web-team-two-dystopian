@@ -1,6 +1,9 @@
-var mainContentDiv = document.getElementById('mainContent');
+var homeMainContentDiv = document.getElementById('mainContent');
 var homeButton = document.getElementById('homeButton');
-console.log(homeButton);
+var homeReview_1 = {
+	comment: "My dinosaur is no more or less ferocious than expected."
+	
+};
 var homeCreator = function() {
 	mainContentDiv.innerHTML = (
 		'<div id="homeLeftColumn" class="homeColumn">'+
@@ -30,17 +33,3 @@ var homeCreator = function() {
 } 
 
 homeButton.addEventListener("click", homeCreator, false);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
