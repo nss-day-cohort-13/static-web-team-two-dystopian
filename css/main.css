@@ -15,7 +15,7 @@ body {
 }
 
 #mainContent {
-	background: rgba(63,63,191,0.8);
+	background: rgba(100,150,191,0.8);
 	height: 500px;
 	width: 1100px;
 	margin: 50px auto;
@@ -27,7 +27,7 @@ body {
 
 #homeLeftColumn {
 	border: 1px solid black;
-	background: tomato;
+	background: seagreen;
 	height: 450px;
 	width: 200px;
 	margin: 25px 0 25px 25px;
@@ -51,7 +51,7 @@ body {
 
 .homeReview {
 	border: 1px solid black;
-	background-color: white;
+	background-color: rgba(255,255,255,.7);
 	height: 125px;
 	width: 150px;
 	margin: 50px 25px;
@@ -63,4 +63,8 @@ body {
 	margin: 5px;
 }
 
+#homeButton {
+	width: 60px;
+	height: 20px;
 
+}
