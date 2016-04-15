@@ -1,6 +1,6 @@
-var productsButton = document.getElementById('productsButton')
+var productsButton = document.getElementById('productsButton');
+var cardSection = document.getElementById("mainContent");
 var cardContent = "";
-console.log(productsButton);
 var cardArray = [{
   name: "Plateosaurus",
   desctiption: "Wolf before they sold out.",
@@ -42,9 +42,6 @@ var cardArray = [{
   ferocity: "2",
   url: "/images/Euoplocephalus.jpeg"
 }];
-
-cardSection = document.getElementById("mainContent");
-
 // loop that adds elements to html based on the number of object(cards) created //
 var cardMaker = function(card){
   var cardHtml = "<article class=\"cards\">";
@@ -54,13 +51,10 @@ var cardMaker = function(card){
   cardHtml += "</article>";
   return cardHtml
 }
-
 var cardLoop = function() {
   cardSection.innerHTML = "";
   cardArray.forEach(function(e, i, a){
   cardSection.innerHTML += cardMaker(e);
-
 })
 }
-console.log(cardContent); 
 productsButton.addEventListener("click", cardLoop, false);

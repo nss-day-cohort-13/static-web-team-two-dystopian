@@ -1,11 +1,5 @@
 var companyMainContentDiv = document.getElementById('mainContent');
-
 var companyButton = document.getElementById('companyButton');
-
-console.log(mainContent);
-console.log(companyButton);
-
-
 var companyCreator = function() {
 		companyMainContentDiv.innerHTML = (
 					'<div class="col1"><!-- left colum with the image -->' +
@@ -26,5 +20,4 @@ var companyCreator = function() {
 					'</div>'
 			);
 }
-
 companyButton.addEventListener("click", companyCreator, false);
