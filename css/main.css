@@ -1,0 +1,41 @@
+*	{
+	box-sizing: border-box;
+}
+
+/*___________HEADER STYLING_____________*/
+
+#mainHeader	{
+	/* UNCOMMENT POSITION WHEN CONTENT IS ON PAGES; OTHERWISE FOOTER HIDDEN BEHIND NAV */
+	/*position: fixed;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #9793A8;
+}
+
+#mainHeader h1	{
+	margin: 25px;
+}
+
+#mainHeader ul  {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+#mainHeader li  {
+	margin: 0 25px;
+}
+
+/*____________FOOTER STYLING____________*/
+
+#mainFooter	{
+	background-color: #6C6C6C;
+	width: 100%;
+	text-align: center;
+	height:30px;
+
+}
