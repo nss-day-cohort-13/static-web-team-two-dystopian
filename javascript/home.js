@@ -1,9 +1,5 @@
 var homeMainContentDiv = document.getElementById('mainContent');
 var homeButton = document.getElementById('homeButton');
-var homeReview_1 = {
-	comment: "My dinosaur is no more or less ferocious than expected."
-
-};
 var homeCreator = function() {
 	homeMainContentDiv.innerHTML = (
 		'<div id="homeLeftColumn" class="homeColumn">'+
