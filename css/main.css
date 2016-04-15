@@ -130,7 +130,32 @@
 .contactParagraph {
   margin: 4px 10px 2px;}
 
+.cards img {
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
 
+.cards {
+	float: left;
+	;
+
+}
+
+#mainContent article {
+	
+	margin: 0 auto;
+	margin-left: 45px;
+}
+
+.cards h1 {
+	margin-bottom: 0;
+	margin: 0;
+}
+
+.cards p {
+	margin-top: 2.5px;
+}
 
 
 
