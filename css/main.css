@@ -10,7 +10,7 @@
 }
 
 #homeMiddleColumn{
-	
+
 	height: 450px;
 	width: 600px;
 	margin: 25px 25px;
@@ -55,6 +55,7 @@
 	width: 1200px;
 	background-color: #9793A8;
 	margin: 0 auto;
+	border-radius: 5px 5px 0 0;
 }
 
 #mainHeader h1	{
@@ -80,13 +81,22 @@
     height: 600px;
     width: 1200px;
     margin: 0 auto;
+    background-image:
+    radial-gradient(
+      #EEDA18,
+      black
+    );
+    border-radius: 0 0 5px 5px;
 }
 
+
+
 #mainContent {
-    background: rgba(100,150,191,0.8);
+    background: rgba(100,150,191,0.4);
     height: 500px;
     width: 1100px;
     margin: 50px auto;
+    border-radius: 5px;
 }
 
 .pageWrap {
@@ -143,7 +153,7 @@
 }
 
 #mainContent article {
-	
+
 	margin: 0 auto;
 	margin-left: 45px;
 }
