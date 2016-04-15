@@ -4,90 +4,25 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+	<header id="mainHeader">
+		<h1>Dystopian</h1>
+		<nav>
+			<ul>
+				<li id="homeButton"><a href="#"></a>Home</li>
+				<li id="productsButton"><a href="#"></a>Products</li>
+				<li id="companyButton"><a href="#"></a>Company</li>
+			</ul>
+		</nav>
+	</header>
 
-		<div class=""><!-- left colum with the image -->
-		  <h2>Where the magic happens</h2>
-			<a href="/images/lab.jpg">
-        <img src="/images/lab.jpg" alt="photo of a lab with baby dinosaurs " class="labImg">
-      </a>
-		</div>
+	<div id="wrapper" class="pageWrap">
+	    <div id="mainContent">
 
-		<!-- right colum with the image -->
-		<div class="col2">
-			<h3>About:</h3>
-		  <p class="">Bitters thundercats irony shabby chic, bespoke intelligentsia sustainable VHS. Chillwave mumblecore farm-to-table cliche VHS kinfolk. Gentrify man bun XOXO godard. Franzen roof party bicycle rights four loko. Jean shorts poutine asymmetrical waistcoat, migas bitters shabby chic polaroid tacos yuccie gastropub ugh thundercats knausgaard.</p>
-		  <h3>About:</h3>
-		</div>
+	    </div>
+	</div>
 
 </body>
 </html>
-
-
-<!-- possible javascript function
-
- Card data
-
-var cardArray = [{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-},{
-  name: "",
-  desctiption: "",
-  price: "",
-  url: "/images/"
-}];
-
-cardSectionOrArticle = document.getElementById("whatever ID we want the DIV to be");
-
-// loop that adds elements to html based on the number of object(cards) created //
-var cardMaker = function(card){
-  var cardHtml = "<article class=\"cards\">";
-  cardHtml += "<h1>" + card.name + "</h1>";
-  cardHtml += "<p>" + card.desctiption + "</p>";
-  cardHtml += "<p>$" + card.price + "</p>";
-  cardHtml += "<img src=\"" + card.url + "\" alt=\"Pandas\">";
-  cardHtml += "</article>";
-  return cardHtml
-}
-
-cardArray.forEach(function(e, i, a){
-  cardSection.innerHTML += cardMaker(e);
-})
-
- -->
-

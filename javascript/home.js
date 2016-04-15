@@ -26,6 +26,6 @@ var homeCreator = function() {
 			'</div>'+
 		'</div>'
 	);
-} 
+}
 
 homeButton.addEventListener("click", homeCreator, false);

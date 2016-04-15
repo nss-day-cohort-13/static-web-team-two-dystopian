@@ -1,6 +1,6 @@
 /****************** HOME PAGE *******************/
 .homeColumn {
-	float: left;	
+	float: left;
 }
 
 #homeLeftColumn {
@@ -98,3 +98,41 @@
   content: "";
   display: block;
 }
+
+/*_____________Contact Page Style____________*/
+
+.col1 {
+	width: 738x;
+	float: left;
+	margin: 15px 0 20px 16px;
+}
+
+.col2 {
+	float: right;
+	width: 320px;
+  height: 387px;
+  margin: 84px 12px 0px 0px;
+}
+
+.contactPageh2 {
+	text-align: center;
+}
+
+.contactPageh3 {
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+.aboutParagraph {
+	margin: 4px 10px 30px;
+}
+
+.contactParagraph {
+  margin: 4px 10px 2px;}
+
+
+
+
+
+
+
